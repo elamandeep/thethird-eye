@@ -1,0 +1,12 @@
+@mixin flex-prop($direction, $property1,$property2) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $property1;
+    align-items: $property2;
+}
+
+@mixin img-prop($height) {
+    max-width: none;
+    height: auto;
+    max-height: $height;
+}

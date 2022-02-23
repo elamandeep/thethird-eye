@@ -1,0 +1,8 @@
+$lg:900px;
+
+
+@mixin media {
+    @media screen and (max-width:$lg) {
+        @content;
+    }
+}
